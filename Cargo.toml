@@ -1,0 +1,20 @@
+[package]
+name = "cli-i"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "clii"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cli-i"
+path = "src/main.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termion = "1.5.5"
+colored = "2"
+syn = "1.0"
+quote = "1.0"
+paste = "1.0.7"
